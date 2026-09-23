@@ -1,0 +1,1 @@
+Disposable QA artifact for cursor-github isolation. Created 2026-09-23.
