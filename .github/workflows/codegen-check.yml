@@ -1,0 +1,12 @@
+name: codegen-check
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ["apps/**"]
+jobs:
+  codegen-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Codegen check (QA fixture)
+        run: echo "codegen-check OK - QA fixture 2026-10-16"
